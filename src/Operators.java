@@ -1,28 +1,37 @@
 public class Operators {
-    private String numberWithNumber;
-    private String operator;
 
-    public Operators(String numberWithNumber, String operator) {
-        this.numberWithNumber = numberWithNumber;
+    private int numberOne;
+    private char operator;
+    private int numberTwo;
+
+    public Operators(int numberOne, char operator, int numberTwo) {
+        this.numberOne = numberOne;
         this.operator = operator;
+        this.numberTwo = numberTwo;
     }
 
-    public String getNumberWithNumber() {
-        return numberWithNumber;
+
+    public int getNumberOne() {
+        return numberOne;
     }
 
-    public void setNumberWithNumber(String numberWithNumber) {
-        this.numberWithNumber = numberWithNumber;
+    public void setNumberOne(int numberOne) {
+        this.numberOne = numberOne;
     }
 
-    public String getOperator() {
+    public char getOperator() {
         return operator;
     }
 
-    public void setOperator(String operator) {
+    public void setOperator(char operator) {
         this.operator = operator;
     }
+
+    public int getNumberTwo() {
+        return numberTwo;
+    }
+
+    public void setNumberTwo(int numberTwo) {
+        this.numberTwo = numberTwo;
+    }
 }
-
-
-
