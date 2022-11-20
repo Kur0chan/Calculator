@@ -1,7 +1,7 @@
 public class Calculator {
-    public int getResultByOperators(Operators operators) {
-        int numberOne = operators.getNumberOne();
-        int numberTwo = operators.getNumberTwo();
+    public double getResultByOperators(Operators operators) {
+        double numberOne = operators.getNumberOne();
+        double numberTwo = operators.getNumberTwo();
         char operator = operators.getOperator();
         switch (operator) {
             case ('+'):
@@ -16,7 +16,7 @@ public class Calculator {
                 }
                 return numberOne / numberTwo;
             case ('^'):
-                return (int) Math.pow(numberOne, numberTwo);
+                return (double) Math.pow(numberOne, numberTwo);
             default:
                 return 0;
         }

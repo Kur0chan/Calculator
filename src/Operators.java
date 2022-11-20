@@ -1,21 +1,19 @@
 public class Operators {
-
-    private int numberOne;
+    private double numberOne;
     private char operator;
-    private int numberTwo;
+    private double numberTwo;
 
-    public Operators(int numberOne, char operator, int numberTwo) {
+    public Operators(double numberOne, char operator, double numberTwo) {
         this.numberOne = numberOne;
         this.operator = operator;
         this.numberTwo = numberTwo;
     }
 
-
-    public int getNumberOne() {
+    public double getNumberOne() {
         return numberOne;
     }
 
-    public void setNumberOne(int numberOne) {
+    public void setNumberOne(double numberOne) {
         this.numberOne = numberOne;
     }
 
@@ -27,11 +25,12 @@ public class Operators {
         this.operator = operator;
     }
 
-    public int getNumberTwo() {
+    public double getNumberTwo() {
         return numberTwo;
     }
 
-    public void setNumberTwo(int numberTwo) {
+    public void setNumberTwo(double numberTwo) {
         this.numberTwo = numberTwo;
     }
+
 }

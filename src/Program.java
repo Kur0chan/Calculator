@@ -5,7 +5,7 @@ public class Program {
         StringReader stringReader = new StringReader();
         Operators operators = stringReader.getCalculatorDataFromExample(example);
         Calculator calculator = new Calculator();
-        int result = calculator.getResultByOperators(operators);
+        double result = calculator.getResultByOperators(operators);
         System.out.println(result);
     }
 }
